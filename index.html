@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Klaudia Czetyrow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="./css/hamburger.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4e02b56e24.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- HEADER + NAV  -->
+    <nav class="navigation">
+        <img class="navigation__logo" src="./img/logo.png" alt="Logo z imieniem i nazwiskiem">
+        <button class="hamburger hamburger--emphatic" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        <div class="navigation__mobile">
+            <a href="#home">Home</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="navigation__desktop">
+            <a href="#home">Home</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <!-- FIRST SECTION  -->
+    <div class="wrapper">
+        <section class="home" id="home">
+            <img src="./img/avatar.png" alt="Przykładowy avatar">
+            <div class="home__text">
+                <h2>Crafting websites with passion and <span class="animated-text">precision.</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae facilis perferendis reprehenderit,
+                    debitis inventore deserunt placeat adipisci libero nisi mollitia quo aut at ipsam, tempora tenetur
+                    culpa, fuga fugit quisquam harum perspiciatis sit suscipit!</p>
+            </div>
+            <div class="home__btns">
+                <button class="home__btns-contact">Get in touch</button>
+                <button class="home__btns-download">Download CV</button>
+            </div>
+        </section>
+    </div>
+    <!-- SECOND SECTION  -->
+    <section class="experience" id="experience">
+        <h2>Experience with</h2>
+        <div class="experience__icons">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-sass"></i>
+            <i class="fa-brands fa-css3"></i>
+            <i class="fa-brands fa-git"></i>
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-wordpress"></i>
+        </div>
+    </section>
+    <!-- THIRD SECTION  -->
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="projects__cards">
+            <div class="projects__cards-card">
+                <img src="./img/czasomierz projekt.png" alt="Zrzut ekranu przedstawiający projekt czasomierza.">
+                <div class="text">
+                    <h3>Timepiece</h3>
+                    <p><span>Category: </span>Java Script</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects__cards-card">
+                <img src="./img/cmweb.png" alt="Zrzut ekranu przedstawiający projekt czasomierza.">
+                <div class="text">
+                    <h3>Coding Machine - website</h3>
+                    <p><span>Category: </span>HTML/CSS</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects__cards-card">
+                <img src="./img/magic8ball.png" alt="Zrzut ekranu przedstawiający projekt czasomierza.">
+                <div class="text">
+                    <h3>Magic8Ball</h3>
+                    <p><span>Category: </span>Java Script</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects__cards-card">
+                <img src="./img/harmoniaumysłu.png" alt="Zrzut ekranu przedstawiający projekt czasomierza.">
+                <div class="text">
+                    <h3>Harmonia Umysłu - website</h3>
+                    <p><span>Category: </span>HTML/CSS</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="projects__info">Click <a href="">here</a> for more projects!</p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="contact__title">Contact</h2>
+        <div class="contact__box">
+            <div class="contact__box-left">
+                <img src="./img/me.png" alt="">
+                <div class="text">
+                    <h3>You have any question?</h3>
+                    <p>Feel free to send me DM on my social media!</p>
+                    <div class="text__icons">
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i>
+                    </div></a>
+                </div>
+            </div>
+            <div class="contact__box-right">
+                <h2>Get in touch!</h2>
+                <form action="#">
+                    <div class="name-input">
+                        <i class="fa-solid fa-user"></i>
+                        <label for="name">Name:</label>
+                        <input type="text">
+                    </div>
+                    <div class="mail-input">
+                        <i class="fa-solid fa-at"></i>
+                        <label for="email">E-mail:</label>
+                        <input type="email">
+                    </div>
+                    <div class="msg-input">
+                        <i class="fa-solid fa-message"></i>
+                        <label for="message">Message:</label>
+                        <textarea name="message"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
